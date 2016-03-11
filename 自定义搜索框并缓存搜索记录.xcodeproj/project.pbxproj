@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		615CB4D11C92B20B00B1AA5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4D01C92B20B00B1AA5A /* main.m */; };
+		615CB4D41C92B20B00B1AA5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4D31C92B20B00B1AA5A /* AppDelegate.m */; };
+		615CB4D71C92B20B00B1AA5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4D61C92B20B00B1AA5A /* ViewController.m */; };
+		615CB4DA1C92B20B00B1AA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615CB4D81C92B20B00B1AA5A /* Main.storyboard */; };
+		615CB4DC1C92B20B00B1AA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615CB4DB1C92B20B00B1AA5A /* Assets.xcassets */; };
+		615CB4DF1C92B20B00B1AA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615CB4DD1C92B20B00B1AA5A /* LaunchScreen.storyboard */; };
+		615CB4EA1C92B20B00B1AA5A /* _____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4E91C92B20B00B1AA5A /* _____________Tests.m */; };
+		615CB4F51C92B20B00B1AA5A /* _____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4F41C92B20B00B1AA5A /* _____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615CB4E61C92B20B00B1AA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615CB4C41C92B20B00B1AA5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615CB4CB1C92B20B00B1AA5A;
+			remoteInfo = "自定义搜索框并缓存搜索记录";
+		};
+		615CB4F11C92B20B00B1AA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615CB4C41C92B20B00B1AA5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615CB4CB1C92B20B00B1AA5A;
+			remoteInfo = "自定义搜索框并缓存搜索记录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		615CB4CC1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义搜索框并缓存搜索记录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		615CB4D01C92B20B00B1AA5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		615CB4D21C92B20B00B1AA5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		615CB4D31C92B20B00B1AA5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		615CB4D51C92B20B00B1AA5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		615CB4D61C92B20B00B1AA5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		615CB4D91C92B20B00B1AA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615CB4DB1C92B20B00B1AA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615CB4DE1C92B20B00B1AA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615CB4E01C92B20B00B1AA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615CB4E51C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义搜索框并缓存搜索记录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		615CB4E91C92B20B00B1AA5A /* _____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________Tests.m"; sourceTree = "<group>"; };
+		615CB4EB1C92B20B00B1AA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615CB4F01C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义搜索框并缓存搜索记录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		615CB4F41C92B20B00B1AA5A /* _____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________UITests.m"; sourceTree = "<group>"; };
+		615CB4F61C92B20B00B1AA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615CB4C91C92B20B00B1AA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615CB4E21C92B20B00B1AA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615CB4ED1C92B20B00B1AA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615CB4C31C92B20B00B1AA5A = {
+			isa = PBXGroup;
+			children = (
+				615CB4CE1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录 */,
+				615CB4E81C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests */,
+				615CB4F31C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests */,
+				615CB4CD1C92B20B00B1AA5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		615CB4CD1C92B20B00B1AA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615CB4CC1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录.app */,
+				615CB4E51C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests.xctest */,
+				615CB4F01C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615CB4CE1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录 */ = {
+			isa = PBXGroup;
+			children = (
+				615CB4D21C92B20B00B1AA5A /* AppDelegate.h */,
+				615CB4D31C92B20B00B1AA5A /* AppDelegate.m */,
+				615CB4D51C92B20B00B1AA5A /* ViewController.h */,
+				615CB4D61C92B20B00B1AA5A /* ViewController.m */,
+				615CB4D81C92B20B00B1AA5A /* Main.storyboard */,
+				615CB4DB1C92B20B00B1AA5A /* Assets.xcassets */,
+				615CB4DD1C92B20B00B1AA5A /* LaunchScreen.storyboard */,
+				615CB4E01C92B20B00B1AA5A /* Info.plist */,
+				615CB4CF1C92B20B00B1AA5A /* Supporting Files */,
+			);
+			path = "自定义搜索框并缓存搜索记录";
+			sourceTree = "<group>";
+		};
+		615CB4CF1C92B20B00B1AA5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				615CB4D01C92B20B00B1AA5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		615CB4E81C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				615CB4E91C92B20B00B1AA5A /* _____________Tests.m */,
+				615CB4EB1C92B20B00B1AA5A /* Info.plist */,
+			);
+			path = "自定义搜索框并缓存搜索记录Tests";
+			sourceTree = "<group>";
+		};
+		615CB4F31C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests */ = {
+			isa = PBXGroup;
+			children = (
+				615CB4F41C92B20B00B1AA5A /* _____________UITests.m */,
+				615CB4F61C92B20B00B1AA5A /* Info.plist */,
+			);
+			path = "自定义搜索框并缓存搜索记录UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615CB4CB1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615CB4F91C92B20B00B1AA5A /* Build configuration list for PBXNativeTarget "自定义搜索框并缓存搜索记录" */;
+			buildPhases = (
+				615CB4C81C92B20B00B1AA5A /* Sources */,
+				615CB4C91C92B20B00B1AA5A /* Frameworks */,
+				615CB4CA1C92B20B00B1AA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义搜索框并缓存搜索记录";
+			productName = "自定义搜索框并缓存搜索记录";
+			productReference = 615CB4CC1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615CB4E41C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615CB4FC1C92B20B00B1AA5A /* Build configuration list for PBXNativeTarget "自定义搜索框并缓存搜索记录Tests" */;
+			buildPhases = (
+				615CB4E11C92B20B00B1AA5A /* Sources */,
+				615CB4E21C92B20B00B1AA5A /* Frameworks */,
+				615CB4E31C92B20B00B1AA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615CB4E71C92B20B00B1AA5A /* PBXTargetDependency */,
+			);
+			name = "自定义搜索框并缓存搜索记录Tests";
+			productName = "自定义搜索框并缓存搜索记录Tests";
+			productReference = 615CB4E51C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		615CB4EF1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615CB4FF1C92B20B00B1AA5A /* Build configuration list for PBXNativeTarget "自定义搜索框并缓存搜索记录UITests" */;
+			buildPhases = (
+				615CB4EC1C92B20B00B1AA5A /* Sources */,
+				615CB4ED1C92B20B00B1AA5A /* Frameworks */,
+				615CB4EE1C92B20B00B1AA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615CB4F21C92B20B00B1AA5A /* PBXTargetDependency */,
+			);
+			name = "自定义搜索框并缓存搜索记录UITests";
+			productName = "自定义搜索框并缓存搜索记录UITests";
+			productReference = 615CB4F01C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615CB4C41C92B20B00B1AA5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bianguo;
+				TargetAttributes = {
+					615CB4CB1C92B20B00B1AA5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					615CB4E41C92B20B00B1AA5A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 615CB4CB1C92B20B00B1AA5A;
+					};
+					615CB4EF1C92B20B00B1AA5A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 615CB4CB1C92B20B00B1AA5A;
+					};
+				};
+			};
+			buildConfigurationList = 615CB4C71C92B20B00B1AA5A /* Build configuration list for PBXProject "自定义搜索框并缓存搜索记录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615CB4C31C92B20B00B1AA5A;
+			productRefGroup = 615CB4CD1C92B20B00B1AA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615CB4CB1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录 */,
+				615CB4E41C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录Tests */,
+				615CB4EF1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615CB4CA1C92B20B00B1AA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615CB4DF1C92B20B00B1AA5A /* LaunchScreen.storyboard in Resources */,
+				615CB4DC1C92B20B00B1AA5A /* Assets.xcassets in Resources */,
+				615CB4DA1C92B20B00B1AA5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615CB4E31C92B20B00B1AA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615CB4EE1C92B20B00B1AA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615CB4C81C92B20B00B1AA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615CB4D71C92B20B00B1AA5A /* ViewController.m in Sources */,
+				615CB4D41C92B20B00B1AA5A /* AppDelegate.m in Sources */,
+				615CB4D11C92B20B00B1AA5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615CB4E11C92B20B00B1AA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615CB4EA1C92B20B00B1AA5A /* _____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615CB4EC1C92B20B00B1AA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615CB4F51C92B20B00B1AA5A /* _____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		615CB4E71C92B20B00B1AA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615CB4CB1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录 */;
+			targetProxy = 615CB4E61C92B20B00B1AA5A /* PBXContainerItemProxy */;
+		};
+		615CB4F21C92B20B00B1AA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615CB4CB1C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录 */;
+			targetProxy = 615CB4F11C92B20B00B1AA5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		615CB4D81C92B20B00B1AA5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615CB4D91C92B20B00B1AA5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615CB4DD1C92B20B00B1AA5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615CB4DE1C92B20B00B1AA5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615CB4F71C92B20B00B1AA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		615CB4F81C92B20B00B1AA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615CB4FA1C92B20B00B1AA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义搜索框并缓存搜索记录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bianguo.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		615CB4FB1C92B20B00B1AA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义搜索框并缓存搜索记录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bianguo.-------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		615CB4FD1C92B20B00B1AA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义搜索框并缓存搜索记录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bianguo.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义搜索框并缓存搜索记录.app/自定义搜索框并缓存搜索记录";
+			};
+			name = Debug;
+		};
+		615CB4FE1C92B20B00B1AA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义搜索框并缓存搜索记录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bianguo.-------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义搜索框并缓存搜索记录.app/自定义搜索框并缓存搜索记录";
+			};
+			name = Release;
+		};
+		615CB5001C92B20B00B1AA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义搜索框并缓存搜索记录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bianguo.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义搜索框并缓存搜索记录";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		615CB5011C92B20B00B1AA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义搜索框并缓存搜索记录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bianguo.-------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义搜索框并缓存搜索记录";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615CB4C71C92B20B00B1AA5A /* Build configuration list for PBXProject "自定义搜索框并缓存搜索记录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615CB4F71C92B20B00B1AA5A /* Debug */,
+				615CB4F81C92B20B00B1AA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615CB4F91C92B20B00B1AA5A /* Build configuration list for PBXNativeTarget "自定义搜索框并缓存搜索记录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615CB4FA1C92B20B00B1AA5A /* Debug */,
+				615CB4FB1C92B20B00B1AA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615CB4FC1C92B20B00B1AA5A /* Build configuration list for PBXNativeTarget "自定义搜索框并缓存搜索记录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615CB4FD1C92B20B00B1AA5A /* Debug */,
+				615CB4FE1C92B20B00B1AA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615CB4FF1C92B20B00B1AA5A /* Build configuration list for PBXNativeTarget "自定义搜索框并缓存搜索记录UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615CB5001C92B20B00B1AA5A /* Debug */,
+				615CB5011C92B20B00B1AA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615CB4C41C92B20B00B1AA5A /* Project object */;
+}
