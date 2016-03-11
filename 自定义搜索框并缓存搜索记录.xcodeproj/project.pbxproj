@@ -15,6 +15,8 @@
 		615CB4DF1C92B20B00B1AA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615CB4DD1C92B20B00B1AA5A /* LaunchScreen.storyboard */; };
 		615CB4EA1C92B20B00B1AA5A /* _____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4E91C92B20B00B1AA5A /* _____________Tests.m */; };
 		615CB4F51C92B20B00B1AA5A /* _____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB4F41C92B20B00B1AA5A /* _____________UITests.m */; };
+		615CB5041C92B23E00B1AA5A /* SearchDisPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB5031C92B23E00B1AA5A /* SearchDisPlayerController.m */; };
+		615CB5071C92B34300B1AA5A /* ZYTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CB5061C92B34300B1AA5A /* ZYTokenManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		615CB4F01C92B20B00B1AA5A /* 自定义搜索框并缓存搜索记录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义搜索框并缓存搜索记录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		615CB4F41C92B20B00B1AA5A /* _____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____________UITests.m"; sourceTree = "<group>"; };
 		615CB4F61C92B20B00B1AA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615CB5021C92B23E00B1AA5A /* SearchDisPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDisPlayerController.h; sourceTree = "<group>"; };
+		615CB5031C92B23E00B1AA5A /* SearchDisPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDisPlayerController.m; sourceTree = "<group>"; };
+		615CB5051C92B34300B1AA5A /* ZYTokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTokenManager.h; sourceTree = "<group>"; };
+		615CB5061C92B34300B1AA5A /* ZYTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTokenManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,11 @@
 				615CB4D31C92B20B00B1AA5A /* AppDelegate.m */,
 				615CB4D51C92B20B00B1AA5A /* ViewController.h */,
 				615CB4D61C92B20B00B1AA5A /* ViewController.m */,
+				615CB5051C92B34300B1AA5A /* ZYTokenManager.h */,
+				615CB5061C92B34300B1AA5A /* ZYTokenManager.m */,
 				615CB4D81C92B20B00B1AA5A /* Main.storyboard */,
+				615CB5021C92B23E00B1AA5A /* SearchDisPlayerController.h */,
+				615CB5031C92B23E00B1AA5A /* SearchDisPlayerController.m */,
 				615CB4DB1C92B20B00B1AA5A /* Assets.xcassets */,
 				615CB4DD1C92B20B00B1AA5A /* LaunchScreen.storyboard */,
 				615CB4E01C92B20B00B1AA5A /* Info.plist */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				615CB4D71C92B20B00B1AA5A /* ViewController.m in Sources */,
+				615CB5041C92B23E00B1AA5A /* SearchDisPlayerController.m in Sources */,
+				615CB5071C92B34300B1AA5A /* ZYTokenManager.m in Sources */,
 				615CB4D41C92B20B00B1AA5A /* AppDelegate.m in Sources */,
 				615CB4D11C92B20B00B1AA5A /* main.m in Sources */,
 			);
